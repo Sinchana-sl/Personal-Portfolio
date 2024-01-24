@@ -1,0 +1,95 @@
+#contact {
+  margin-top: 2rem;
+}
+.contactPageTitle {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1rem;
+  border: none;
+}
+
+.contactPageTitle span {
+  color: rgb(249, 68, 98);
+  margin-bottom: 100px;
+}
+
+.contactDesc {
+  padding: 0.5rem;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 400px;
+  border-radius: 10px;
+}
+
+.name,
+.email,
+.msg {
+  font-size: large;
+  width: 40vw;
+  margin: 0.5rem;
+  padding: 0.55rem;
+  border-radius: 10px;
+  color: gray;
+}
+
+/* .formElementsDiv {
+  display: flex;
+  flex-direction: column;
+ 
+  padding: 0.5rem;
+} */
+.submitBtn {
+  background: white;
+  color: black;
+  border: none;
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 300px;
+  padding: 0.7rem 1rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.labelInDiv input,
+textarea {
+  background-color: rgb(21, 20, 20);
+  border: none;
+}
+
+label {
+  margin-left: 11px;
+}
+
+label span {
+  color: rgb(249, 68, 98);
+}
+
+.submitBtn:hover {
+  background-color: rgb(249, 68, 98);
+}
+
+.buttonDiv {
+  display: flex;
+}
+
+.links {
+  padding: 2px;
+}
+
+.linksImg {
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+}

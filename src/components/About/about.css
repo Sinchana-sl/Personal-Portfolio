@@ -1,0 +1,146 @@
+h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 70px 0;
+  margin-bottom: 30px;
+}
+
+#aboutPage span {
+  color: rgb(249, 68, 98);
+  
+}
+
+.skillsAndEdu {
+  display: flex;
+  margin: 0.1rem;
+  margin-left: 14rem;
+  padding-top: 1px;
+}
+
+.about {
+  /* padding: 3rem 12rem;
+  padding-right: 18rem; */
+ border-radius: 10px;
+  padding: 20px;
+  
+  margin: 40px;
+  margin-top: 48px;
+  margin-left: 9rem;
+  background-color: rgb(21, 20, 20);
+  border: none;
+  height:50%;
+  width: 30%;
+ border-left: 3.5px solid rgb(249, 68, 98)
+}
+/* 
+.about h3 {
+  font-size: 40px;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-color: rgb(249, 68, 98);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
+} */
+
+.aboutDesc {
+  font-weight: 300;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.aboutandSkills {
+  display: flex;
+}
+.skills {
+  /* padding: 4rem;
+  margin: 2rem;*/
+  margin-top: -30px;
+  padding: 1rem ;
+  padding-left: 70px;
+  margin-right: 1rem;
+  /* width: 100%; */
+  white-space: nowrap;
+}
+
+.skills h3,
+.education h3,.about h3 {
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgb(249, 68, 98);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 3px;
+}
+
+.skills ul li {
+  font-weight: 300;
+  list-style: none;
+
+  font-size: 17px;
+  padding: 5px;
+}
+
+.skills ul li::before {
+  content: "✔";
+  padding-right: 10px;
+  color: rgb(249, 68, 98);
+}
+
+.education {
+  margin-top: -30px;
+  padding: 1rem 2rem;
+  padding-left: 4rem;
+  margin-right: 4rem;
+  /* margin-left: 10px; */
+  /* width: 100%; */
+  white-space: nowrap;
+  
+}
+
+.info {
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+
+.engineering,
+.skillsList {
+  padding-top: 3px !important;
+  margin-top: 10px;
+}
+
+.diffEduHeading {
+  font-size: 20px;
+}
+
+.engineering,
+.sslc,
+.puc,
+.skillsList {
+  margin-bottom: 15px;
+  background-color: rgb(21, 20, 20);
+  border-radius: 10px;
+  padding: 8px;
+  transition: transform 0.2s ease-out;
+  border-left: 3.5px solid rgb(249, 68, 98)
+}
+
+.engineering:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.sslc:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.skillsList:hover {
+  background-color: rgb(30, 30, 30);
+}
+.puc:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.about:hover {
+  background-color: rgb(30, 30, 30);
+}
+ 

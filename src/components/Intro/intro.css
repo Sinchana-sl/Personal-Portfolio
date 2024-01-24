@@ -1,0 +1,126 @@
+#intro {
+  height: cacl(100vh-5rem);
+  width: 100vw;
+  max-width: 78rem;
+  margin: 0 auto;
+  /* overflow: hidden;*/
+}
+
+/* .introduction{
+  display: flex;
+  align-items: flex-start;
+ 
+ 
+} */
+
+/* .myImage{
+  display: block;
+  
+} */
+.bg {
+  position: absolute;
+  top: 9rem;
+  right: 4rem;
+  object-fit: cover;
+  height: 60vh;
+  border-radius: 50px;
+  margin-right: 14rem;
+  margin-top: 4rem;
+  z-index: -1;
+}
+
+.introContent {
+  height: 100vh;
+  width: 50%;
+  padding: 2rem;
+  padding-top: 1px;
+  margin-right: 15rem;
+  margin-top: 1px;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.hello {
+  font-size: 1.9rem;
+  font-weight: 200;
+}
+
+.introName {
+  color: rgb(249, 68, 98);
+  position: relative;
+  display: inline-block;
+  animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--i))
+}
+
+/* @keyframes s {
+  from {
+    margin-left: 80%;
+  }
+  to {
+    margin-left: 0%;
+  }
+} */
+
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.btnImage {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 780px) {
+  .bg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 10vw;
+    margin-bottom: 1rem;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .bg {
+    display: none;
+  }
+  .introContent {
+    font-size: 10vw;
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .hello {
+    font-size: 5vw;
+  }
+}
+
+.btn:hover {
+  background-color: rgb(249, 68, 98);
+}
